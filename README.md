@@ -3,7 +3,7 @@
 Implementation of the paper [Last Query Transformer RNN for knowledge tracing](https://arxiv.org/abs/2102.05038).  The novel point of the model is that it only uses the last input as query in transformer encoder, instead of all sequence, which makes QK matrix multiplication in transformer Encoder to have O(L) time complexity, instead of O(L^2). It allows the model to input longer sequence.    
 
 ## Model architecture  
-<img src="https://github.com/arshadshk/SAINT-pytorch/blob/main/arch_from_paper.JPG">
+<img src="https://github.com/arshadshk/Last_Query_Transformer_RNN-PyTorch/blob/main/lqtrnn.JPG">
 
 ## Usage 
 ```python
